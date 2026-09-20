@@ -47,7 +47,8 @@ El sistema cuenta con un menú principal interactivo (`Final.java`) que permite 
 ```bash
 # Compilar los archivos fuente dentro de src
 javac -d bin src/parcial2/*.java
-
+# Copiar la carpeta con imágenes
+cp -r src/parcial2/imgs bin/parcial2/
 # Ejecutar el menú orquestador principal
 java -cp bin parcial2.Final
 ```
